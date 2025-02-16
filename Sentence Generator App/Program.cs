@@ -12,7 +12,7 @@
         while (true)
         {
             Console.WriteLine($"{GetRandomWord(names)} from {GetRandomWord(locations)} {GetRandomWord(adverbs)}" +
-                              $" {GetRandomWord(verbs)} {GetRandomWord(nouns)} {GetRandomWord(details)}");
+                              $" {GetRandomWord(verbs)} {GetRandomWord(nouns)} {GetRandomWord(details)}.");
             Console.WriteLine("Click [Enter] to generate a new sentence.");
             Console.ReadLine();
         }
